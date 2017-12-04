@@ -1,0 +1,293 @@
+body {
+	margin: 0;
+}
+
+/*navigation*/
+.navigation {
+	background-color: #F6F9F9;
+	padding: 25px 100px;
+}
+
+* {
+	font-family: 'Lato', sans-serif;
+}
+
+div {
+	display: block;
+}
+
+/*call to action*/
+#cta {
+	background-image: url(../img/bg1.png);
+	height: 800px;
+	text-align: center;
+}
+
+#cta h1 {
+	color: #ffffff;
+	font-size: 120px;
+	font-weight: 700;
+	line-height: 47px;
+	margin-bottom: 60px;
+	margin-top: 0;
+	padding-top: 225px;
+	text-align: center;
+}
+
+h1 {
+	display: block;
+}
+
+#cta hr {
+border-color: #15a4fa;
+margin: 0 auto;
+width: 50%;
+}
+
+hr {
+	display: block;
+	unicode-bidi: isolate;
+	overflow: hidden;
+	border-style: inset;
+	border-width: 1px;
+}
+
+#cta h2 {
+	color: #ffffff;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 47px;
+    text-align: center;
+}
+
+h2 {
+	display: block;
+	font-size: 1.5em;
+	font-weight: bold;
+}
+
+#cta button {
+	background-color: transparent;
+	border-right: transparent;
+	border-bottom: transparent;
+	border-top: 1px solid #15a4fa;
+	border-left: 1px solid #15a4fa;
+	border-radius: 2px;
+	color: #fff;
+	cursor: pointer;
+	padding: 10px 15px;
+}
+
+#cta a {
+	color: #fff;
+	display: inline-block;
+	margin-top: 100px;
+}
+
+.fa-2x {
+	font-size: 2em;
+}
+
+.fa {
+	display: inline-block;
+	font: normal normal normal 14px/1 FontAwesome;
+	font-size: inherit;
+	text-rendering: auto;
+}
+
+.fa-chevron-down:before {
+    content: "\f078";
+}
+
+/*company info*/
+#info {
+	background-color: #F6F9F9;
+	padding: 50px;
+	text-align: center;
+}
+
+#info h1{
+	color: #2d3950;
+	font-size: 40px;
+	font-weight: 400;
+}
+	
+#info p {
+	color: #999999;
+	font-weight: 400;
+	line-height: 32px;
+	margin: 0 auto;
+	width: 74%;
+} 
+
+/*features*/
+#features {
+	text-align: center;
+}
+
+#features .box {
+	display: inline-block;
+	font-weight: 400;
+	margin: 5% 1%;
+	padding: 10px;
+	width: 21%;
+}
+
+#features .iconBox {
+	background: linear-gradient(to right, #1e5799 0%, #207cca 50%, #2989d8 50%, #7db9e8 100%);
+	height: 100px;
+	margin: 0 auto;
+	width: 100px;
+}
+
+#features i {
+	color: #fff;
+	display: block;
+	font-size: 40px;
+	padding-top: 25px;
+	width: 100%;
+}
+
+.fa-mobile-phone:before, .fa-mobile:before {
+    content: "\f10b";
+}
+
+#features h3 {
+	color: #2d3950;
+	font-size: 22px;
+	margin-bottom: 3%;
+}
+
+#features p {
+color: #999999;
+font-size: 15px;
+font-weight: 400;
+line-height: 22px;
+}
+
+p {
+	display: block;
+}
+
+/*portfolio work*/
+#work {
+	background-color: #f6f9f9;
+	font-weight: 400;
+	padding: 50px 0,;
+	text-align: center;
+}
+
+#work h3 {
+	color: #2d3950;
+	font-size: 41px;
+	margin: 0;
+}
+
+#work p {
+	color: #909090;
+	font-size: 15px;
+	line-height: 23px;
+	text-align: center;
+}
+
+#work .box {
+	display: inline-block;
+	font-weight: 400;
+	margin: 2% 1% 0%;
+	padding: 10px;
+	width: 25%;
+}
+
+#work img {
+	background-color: red;
+	height: 100%;
+	width: 100%;
+}
+
+/*contact*/
+#contact {
+	background-image: url(../img/bg2.png);
+	background-position: 50%;
+	height: 500px;
+	padding: 100px;
+	text-align: center;
+}
+
+#contact h3 {
+	color: #ffffff;
+	font-size: 41px;
+	font-weight: 400;
+	margin: 7% 0 0;
+}
+
+#contact p {
+	color: #999999;
+	font-size: 15px;
+	font-weight: 400;
+	line-height: 23px;
+}
+
+form {
+	display: block;
+	margin: 0em;
+}
+
+form > input, form > textarea {
+	background-color: transparent;
+	border-radius: 2px;
+	border: 1px solid #f6f9f9;
+	color: #fff;
+	display: block;
+	font-size: 16px;
+	margin: 10px auto;
+	padding: 19px;
+	width: 30%;
+}
+
+form span {
+	color: #fff;
+	font-size: 16px;
+	font-weight: 400;
+}
+
+form button {
+	background-color: transparent;
+	border: 1px solid #15a4fa;
+	border-radius: 2px;
+	color: #fff;
+	cursor: pointer;
+	margin: 25px 0 0 50px;
+	padding: 10px 25px;
+}
+
+/*footer*/
+.footer {
+	background-color: #f6f9f9;
+	padding: 10px;
+	height: 50px;
+	padding-left: 50px;
+}
+
+.footer p {
+	float: left;
+	margin-left: 75px;
+}
+
+#socialMedia {
+	float: right;
+	margin: 20px 75px 0 0;
+}
+
+#socialMedial a:first-child {
+	padding: 7px 9px;
+}
+
+#socialMedia a {
+    border-radius: 2px;
+    background-color: #15a4fa;
+    color: white;
+    margin: 5px;
+    padding: 7px;
+    text-decoration: none;
+}
+
